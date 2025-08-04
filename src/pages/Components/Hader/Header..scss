@@ -1,0 +1,36 @@
+.headerDv{
+    background-color: #12569F;  padding: 20px 70px; display: flex; justify-content: space-between; align-items: start;
+    figure{
+        width: 358px; height: 65px; margin: 0px ; padding: 0px;
+        img{
+            width: 100%; height: 100%;
+        }
+    }
+    .serchDv{
+        width: 300px ; height: 40px ; background-color: #FFFFFF33; border-radius: 5px; border: 1px solid #FFFFFF66; display: flex; align-items: center;  gap: 5px;  padding: 0px 10px;
+        input{border: none; outline: none; font-size: 13px; font-weight: 400; color: #ffffff; background-color: transparent;}
+    }
+    .loginDv{
+        display: flex; justify-content: end ; align-items: center; gap: 10px;
+        .email{
+            input{background-color: white; border: 1px solid #F7F6FA; color: #F7F6FA; height: 40px; width: 200px;  padding: 0px 10px; }
+            .checkDv{
+                display: flex; justify-content: start; align-items: center; gap: 5px; margin-top: 10px;
+                .chekcbox{width: 14px; height: 14px; border-radius: 3px;  border: none; margin: 0px; cursor: pointer;}
+                p{font-size: 11px; font-weight: 400; color: white; margin: 0px; padding: 0px;}
+             }
+             .pass{
+                display: flex; justify-content: start; align-items: center; 
+                .buttonDV{
+                    display: flex; justify-content: start; align-items: center; gap: 10px;
+                    button{
+                        height: 42px; background-color: #55B0FF; border: none;  color: white; font-size: 13px; font-weight: 500; padding: 0px 20px; cursor: pointer;
+                        &.tres{
+                            background-color: transparent;border: 0.61px solid #FFFFFF
+                        }
+                    }
+                }
+             }
+        }
+    }
+}
