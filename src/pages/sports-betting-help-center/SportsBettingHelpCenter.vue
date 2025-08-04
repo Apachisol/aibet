@@ -24,5 +24,5 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-@use './SportsBettingRegister.scss' as *;
+@use './SportsBettingHelpCenter.scss' as *;
 </style>
