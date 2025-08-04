@@ -12,8 +12,8 @@
          </div>
          <h5>Copyright © 2025. LogoIpsum. All rights reserved.</h5>
     </div>
-    <img src="../../../assets/img/footerLeft.pgn" alt="" class="leftImg">
-    <img src="../../../assets/img/footerRight.pgn" alt="" class="rightImg">
+    <img src="../../../assets/img/footerLeft.png" alt="" class="leftImg">
+    <img src="../../../assets/img/footerRight.png" alt="" class="rightImg">
 </div>
 </template>
 <script lang="ts">
