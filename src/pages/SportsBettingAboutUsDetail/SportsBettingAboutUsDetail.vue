@@ -61,22 +61,8 @@
               </div>
             </div>
           </div>
-          <div class="Categories">
-            <h3>Categories</h3>
-            <p>Getting Started</p>
-            <p>My Account</p>
-            <p>Payments</p>
-            <p>Promotions And Bonus Bets</p>
-            <p>Betting Basics</p>
-            <p>Bet With Mates</p>
-            <p>Racing</p>
-            <p>Sports & Novelties</p>
-            <p>Safer Gambling</p>
-            <p>Troubleshooting</p>
-            <p>Terms & Conditions</p>
-            <h6>About Us</h6>
-            <p>Spring Carnival Hub</p>
-          </div>
+        <Categories />
+          
         </div>
         <AboutBottom />
       </div>
@@ -91,6 +77,8 @@ import TopBar from "../../components/TopBar/TopBar.vue";
 import Footer from "../../components/Footer/Footer.vue";
 import Banner from "../../components/Banner/Banner.vue";
 import AboutBottom from "../../components/AboutBottom/AboutBottom.vue";
+import Categories from "../../components/Categories/Categories.vue";
+
 
 export default defineComponent({
   components: {
@@ -99,6 +87,8 @@ export default defineComponent({
     Footer,
     Banner,
     AboutBottom,
+    Categories
+
   },
   props: {},
   setup() {

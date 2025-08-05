@@ -22,7 +22,75 @@
               </div>
             </div>
             <div class="bodyDV">
+              <div class="firstTable">
+                <div class="topRow">
+                <p>Lakers VS Warriors | Today 16 july</p>
+                <p>(Time: 19:00 - 21:00)</p>
+                <img src="../../assets/icon/dateIconm.svg" alt="" />
+              </div>
+              <div class="tableRow">
+                <div class="itemsRow">
+                  <div class="items">
+                    <div class="logoNme">
+                    <img src="../../assets/img/NRl.png" alt="" />
+                    <h5>Lakers</h5>
+                  </div>
+                  </div>
+                  <div class="items"><h5>$2.10</h5></div>
+                  <div class="items"><h5>$2.10</h5></div>
+                  <div class="items"><h5>$2.10</h5></div>
+                </div>
+                <div class="itemsRow">
+                  <div class="items">
+                    <div class="logoNme">
+                    <img src="../../assets/img/NRl.png" alt="" />
+                    <h5>Lakers</h5>
+                  </div>
+                  </div>
+                  <div class="items"><h5>$2.10</h5></div>
+                  <div class="items"><h5>$2.10</h5></div>
+                  <div class="items"><h5>$2.10</h5></div>
+                </div>
+                <div class="tag">
+                  Suggested bet: bet on team A $1.24 at betfair
+                </div>
+                <img src="../../assets/icon/downlod.svg" class="donIcon" alt="">
+              </div>
               <div class="topRow">
+                <p>Lakers VS Warriors | Today 16 july</p>
+                <p>(Time: 19:00 - 21:00)</p>
+                <img src="../../assets/icon/dateIconm.svg" alt="" />
+              </div>
+               <div class="tableRow">
+                <div class="itemsRow">
+                  <div class="items">
+                    <div class="logoNme">
+                    <img src="../../assets/img/NRl.png" alt="" />
+                    <h5>Lakers</h5>
+                  </div>
+                  </div>
+                  <div class="items"><h5>$2.10</h5></div>
+                  <div class="items"><h5>$2.10</h5></div>
+                  <div class="items"><h5>$2.10</h5></div>
+                </div>
+                <div class="itemsRow">
+                  <div class="items">
+                    <div class="logoNme">
+                    <img src="../../assets/img/NRl.png" alt="" />
+                    <h5>Lakers</h5>
+                  </div>
+                  </div>
+                  <div class="items"><h5>$2.10</h5></div>
+                  <div class="items"><h5>$2.10</h5></div>
+                  <div class="items"><h5>$2.10</h5></div>
+                </div>
+                <div class="tag">
+                  Suggested bet: bet on team A $1.24 at betfair
+                </div>
+                <img src="../../assets/icon/downlod.svg" class="donIcon" alt="">
+              </div>
+              </div>
+              <!-- <div class="topRow">
                 <p>Lakers VS Warriors | Today 16 july</p>
                 <p>(Time: 19:00 - 21:00)</p>
                 <img src="../../assets/icon/dateIconm.svg" alt="" />
@@ -85,7 +153,7 @@
                 <div class="tag">
                   Suggested bet: bet on team A $1.24 at betfair
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="tableDv">

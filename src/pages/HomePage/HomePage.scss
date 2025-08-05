@@ -58,6 +58,62 @@
           }
           .bodyDV {
             background-color: white;
+            .firstTable{
+               .topRow {
+              display: flex;
+              justify-content: start;
+              align-items: center;
+              gap: 5px;
+              padding: 10px 30px;
+              p {
+                font-size: 9px;
+                font-weight: 400;
+                color: #868686;
+                margin: 0px;
+                padding: 0px;
+              }
+              img {
+                width: 12px;
+                height: 10px;
+              }
+            }
+            .tableRow{
+              background-color: #F7F9FD; padding: 10px 30px; display: flex; flex-direction: column; gap: 20px; position: relative;
+            .itemsRow{
+              display: flex; justify-content: start; align-items: center; 
+              .items{
+                width: calc(100% / 4) ;
+                .logoNme {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 10px;
+                img {
+                  width: 21px;
+                  height: 21px;
+                  margin: 0px;
+                  padding: 0px;
+                }
+                h5 {
+                  color: #0056b3; font-size: 14px; 
+                }
+              }
+              }
+            }
+               .tag {
+                background-color: #32cd32;
+                color: black;
+                font-size: 8px;
+                font-weight: 600;
+                margin: 0px;
+                padding: 0px;
+                border-radius: 20px;
+                padding: 5px 10px;
+                width: fit-content;
+              }
+              .donIcon{width: 14px; height: 19px; position: absolute; margin: 0px; padding: 0px; top: 15px; right: 15px; cursor: pointer;}
+            }
+            }
 
             .topRow {
               display: flex;
@@ -231,6 +287,9 @@
                     .both{width: 100%;}
                   }
                 }
+              }
+              .firstTable{
+                
               }
               .boderRowTable {
                 gap: 0px;
