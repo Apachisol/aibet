@@ -67,4 +67,35 @@ body {
       align-items: start;
     }
   }
+
+  .mobile-show{display: none;}
+  
+  @media (max-width: 768px) {
+    .mobile-show{display: block !important;}
+    .mobile-hide{display: none !important;}
+      .main-Content{
+          flex-direction: column; padding: 0px; 
+          .rightDV{
+              width: 100%; padding: 0px 15px;
+              .towColDataContent{
+                  flex-direction: column; 
+                  .rightColDv{
+                      width: 100%; 
+                  }
+                  .centerColDv{
+                      width: 100%;
+                  }
+              }
+          }
+          .leftDv{
+              width: 100%; padding: 0px 15px;
+          }
+      }
+      .sigaleContentDv{
+        .mainContentDataDv {
+          width: 100% !important; padding: 0px 15px;
+        }
+      }
+  }
 }
+

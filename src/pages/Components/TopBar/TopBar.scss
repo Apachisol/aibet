@@ -29,3 +29,22 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .topBrDv{
+        .barDv{padding: 10px;}
+        .logoBarDv{
+            flex-direction: column;  padding: 10px; gap: 10px;
+            .rightDV{
+                width: 100%; 
+                .logoRow{
+                    gap: 10px; overflow: auto; padding-bottom: 10px;
+                }
+            }
+            .leftDv{
+                width: 100% ; text-align: center;
+                h1{font-size: 18px;}
+            }
+        }
+    }
+}

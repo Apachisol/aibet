@@ -34,3 +34,26 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .headerDv{
+        padding: 15px; flex-direction: column; gap: 5px; align-items: center;
+        .serchDv{width: 100%;}
+        figure{width: 322px;}
+        .menu-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+        .loginDv{
+            flex-direction: column  ; width: 100%;
+            .email{
+                width: 100%;
+                input{width: 100%;}
+                .pass{
+                    flex-direction: column; width: 100%; gap: 10px; align-items: start;
+                }
+            }
+        }
+    }
+}

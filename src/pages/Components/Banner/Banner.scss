@@ -42,3 +42,22 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .bannerDv{
+        height: 100%; padding: 15px;
+        .contentDv{
+            flex-direction: column; width: 100% ; gap: 10px;
+            h1{font-size: 18px; text-align: center;}
+            .serchDv{
+                margin-top: 10px;
+            }
+            .bannerImg{
+                display: none;
+            }
+            .contect{
+                width: 100%; 
+            }
+        }
+    }
+}

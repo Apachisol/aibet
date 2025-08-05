@@ -18,3 +18,9 @@
         width: 296px; height: 276px; position: absolute; right: 0px; top: 0px; 
     }
 }
+
+ @media (max-width: 768px) {
+    .barDV{
+        gap: 10px !important;
+    }
+ }

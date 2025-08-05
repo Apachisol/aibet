@@ -32,3 +32,20 @@
             }
     }
 }
+
+@media (max-width: 768px) {
+    .sigaleContentDv{
+        .mainContentDataDv{
+            flex-direction: column; gap: 10px;
+            .formcontent{
+                gap: 10px;
+                .formDV{
+                    width: 100%; 
+                }
+            }
+            .textDv{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -50,7 +50,7 @@
           <button>Register</button>
         </div>
       </div>
-      <div class="boderdv"></div>
+      <div class="boderdv mobile-hide" ></div>
       <div class="textDv">
         <div class="colDv">
           <h3>By clicking 'Register' I acknowledge and agree:</h3>

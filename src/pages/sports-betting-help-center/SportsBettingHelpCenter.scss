@@ -11,3 +11,16 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .sigaleContentDv{
+        .mainContentDataDv{
+            &.helpCnter{
+                gap: 10px;
+                .box{
+                    width: calc(100% - 185px ) ;
+                }
+            }
+        }
+    }
+}

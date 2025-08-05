@@ -21,10 +21,10 @@
                 .tabDv{
                     display: flex; justify-content: start; align-items: center;   border-top: 1px solid #BDBDBD; padding: 0px 30px; gap: 20px;
                     .bor{
-                        width: 1px; height: 42px; background-color: #BDBDBD;
+                        width: 1px; height: 50px; background-color: #BDBDBD;
                     }
                     .item{
-                        font-size: 20px; font-weight: 300; color: black; padding: 10px 0px;
+                        font-size: 18px; font-weight: 500; color: black; padding: 10px 0px;
                         &.fir{width: 100px;}
                     }
                 }
@@ -69,6 +69,8 @@
                         h5{color: #0056B3;}
                     }
                     &.noBg{background-color: transparent;}
+                    .tag{background-color: #32CD32; color: black; font-size: 8px; font-weight: 600; margin: 0px; padding: 0px; border-radius: 20px; padding:5px 10px;}
+                    h3{color: black;}
                 }
                 .boderRowTable{
                     display: flex; justify-content: start;display: flex; justify-content: start; align-items: center; gap: 5px; border-top: 1px solid #BDBDBD;
@@ -103,5 +105,35 @@
             }
         }
        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main-Content{
+        .rightDV{
+            .towColDataContent{
+                .centerColDv{
+                    .tableDv {
+                        .bodyDV{
+                            &.trakerCrd{
+                                padding: 10px;
+
+                            }
+                        }
+                        .BetTracker{
+                            flex-direction: column;
+                            .both{
+                                flex-direction: column; align-items: end !important;
+                                .Lakers{width: 100% !important;}
+                                .darkDv{width: 100% !important  ;}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .leftDv{
+            width: 100%;
+        }
     }
 }

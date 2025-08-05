@@ -89,6 +89,9 @@
                 <div class="item"><h5>+7.5</h5></div>
                 <div class="item"><h5>Over</h5></div>
               </div>
+              <div class="bodyRow">
+                <div class="tag">Suggested bet: bet on team A $1.24 at betfair</div>
+              </div>
               <div class="topRow">
                 <p>Lakers VS Warriors | Today 16 july</p>
                 <p>(Time: 19:00 - 21:00)</p>
@@ -116,25 +119,23 @@
                 <div class="item"><h5>+7.5</h5></div>
                 <div class="item"><h5>Over</h5></div>
               </div>
+               <div class="bodyRow">
+                <div class="tag">Suggested bet: bet on team A $1.24 at betfair</div>
+              </div>
             </div>
           </div>
           <div class="tableDv">
             <div class="haderDv">
-              <div class="item">
-                <h3>Games</h3>
-              </div>
-              <div class="item">
-                <h3>H2H</h3>
-              </div>
-              <div class="item">
-                <h3>Line</h3>
-              </div>
-              <div class="item">
-                <h3>Total</h3>
-              </div>
+              <h3>Live Odds Demo</h3>
             </div>
             <div class="bodyDV">
               <div class="bodyRow">
+                <div class="item"><h3>Bookmaker</h3></div>
+                <div class="item"><h3>H2H</h3></div>
+                <div class="item"><h3>Total</h3></div>
+                <div class="item"><h3>Line</h3></div>
+              </div>
+              <div class="bodyRow noBg">
                 <div class="item">
                   <h5>$2.10</h5>
                 </div>
@@ -142,7 +143,7 @@
                 <div class="item"><h5>+7.5</h5></div>
                 <div class="item"><h5>Over</h5></div>
               </div>
-              <div class="bodyRow noBg">
+              <div class="bodyRow ">
                 <div class="item">
                  <h5>$2.10</h5>
                 </div>
@@ -150,7 +151,7 @@
                 <div class="item"><h5>+7.5</h5></div>
                 <div class="item"><h5>Over</h5></div>
               </div>
-              <div class="bodyRow">
+              <div class="bodyRow noBg">
                 <div class="item">
                   <h5>$2.10</h5>
                 </div>
@@ -158,7 +159,7 @@
                 <div class="item"><h5>+7.5</h5></div>
                 <div class="item"><h5>Over</h5></div>
               </div>
-              <div class="bodyRow noBg">
+              <div class="bodyRow ">
                 <div class="item">
                  <h5>$2.10</h5>
                 </div>

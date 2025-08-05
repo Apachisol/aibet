@@ -50,3 +50,24 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .sigaleContentDv{
+        .mainContentDataDv{
+             &.aboutUss{
+                h1{font-size: 18px; margin-bottom: 10px;}
+                .contentDv{
+                    .maincon{
+                         flex-direction: column;
+                         .aboutUsFor{
+                            width: 100%;
+                         }
+                         .Categories{
+                            width: 100%;
+                         }
+                    }
+                }
+             }
+        }
+    }
+}
