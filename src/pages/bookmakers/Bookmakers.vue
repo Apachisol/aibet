@@ -9,7 +9,11 @@
           <h3>Odds Camparison</h3>
         </div>
             <div class="bodyDV">
-              <div class="bodyRow">
+              <div class="tabButtonRow">
+          <div class="itemsDv" v-for="tab in tabs " :key="tab" :class="{active:activeTab === tab} " @click="activeTab=tab">{{ tab  }}</div>
+        </div>
+              <div class="overFl">
+                <div class="bodyRow">
                 <div class="tagDv">
                   <p>Lakers VS Warriors | Today 16 july</p>
                 <p>(Time: 19:00 - 21:00)</p>
@@ -92,6 +96,7 @@
                   <div class="items "><h5>$2.10</h5></div>
                   <div class="items "><h5>$2.10</h5></div>
                 </div>
+              </div>
               </div>
             </div>
           </div>

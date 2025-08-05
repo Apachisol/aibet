@@ -8,31 +8,30 @@
         <div class="formDV">
           <h3>Your personal details must match your ID to start betting.</h3>
           <div class="itemDv">
-            <h5>Title</h5>
+            <select>
+              <option selected>Mr</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
             <input type="text" placeholder="First Name" />
           </div>
           <div class="itemDv">
-            <h5>Middle Name</h5>
             <input type="text" placeholder="Middle Name" />
           </div>
           <div class="itemDv">
-            <h5>Last Name</h5>
             <input type="text" placeholder="Last Name" />
           </div>
           <div class="itemDv">
-            <h5>Date of Birth</h5>
             <input type="date" placeholder="Date of Birth" />
           </div>
           <div class="itemDv">
-            <h5>Australia</h5>
             <input type="text" placeholder="Australia" />
           </div>
           <div class="itemDv">
-            <h5>Address</h5>
             <input type="text" placeholder="Address" />
           </div>
           <div class="itemDv">
-            <h5>Mobile</h5>
             <input type="number" placeholder="+92" />
           </div>
         </div>

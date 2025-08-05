@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <Banner />
+  <Banner :fromAbout="true" />
   <div class="sigaleContentDv">
     <div class="mainContentDataDv helpCnter">
       <div class="box">

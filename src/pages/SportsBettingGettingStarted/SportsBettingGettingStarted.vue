@@ -8,7 +8,7 @@
           <img src="../../assets/img/Getting.png" alt="" /> Getting Started
         </h1>
         <div class="maincon">
-          <div>
+          <div class="formDv">
             <div class="aboutUsFor">
               <h3>Joining SportsBetting</h3>
               <p>How Do I Join?</p>

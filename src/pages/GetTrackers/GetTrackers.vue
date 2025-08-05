@@ -67,7 +67,8 @@
         <div class="haderDv">
           <h3>Summary</h3>
         </div>
-        <div class="bodyDV">
+        <div class="overFL">
+          <div class="bodyDV resTb">
           <div class="bodyContentDv childeTable">
             <div class="itemsRow bgRow">
               <div class="itemsDv"><h3>Bet</h3></div>
@@ -105,6 +106,7 @@
               <div class="itemsDv"><span>+3.5</span></div>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>

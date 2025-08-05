@@ -43,6 +43,17 @@
     }
 }
 
+.bottomAllover{
+    background-color: #E8E8E8; display: flex; align-items: center; justify-content: center; padding: 20px 0px ; margin-bottom: 30px;
+    .centerDv{
+        width: 70%;
+        h3{
+            color: black;
+            span{font-weight: 400;}
+        }
+    }
+}
+
 @media (max-width: 768px) {
     .bannerDv{
         height: 100%; padding: 15px;

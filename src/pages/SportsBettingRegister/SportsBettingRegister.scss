@@ -47,6 +47,13 @@
             width: 100%;
             font-size: 18px;
           }
+          select {
+            border: none;
+            outline: none;
+            width: 100%;
+            font-size: 18px;
+            width: fit-content;
+          }
         }
         p {
           font-size: 12px;

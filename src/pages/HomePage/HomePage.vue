@@ -165,7 +165,10 @@
                 </div>
                 <div class="border"></div>
                 <div class="item">
-                  <h5>↑1.6%</h5>
+                  <div class="doted">
+                    <div class="dot"></div>
+                    <h5> ↑1.6%</h5>
+                  </div>
                 </div>
                 <div class="border"></div>
                 <div class="item">
@@ -182,7 +185,10 @@
                 </div>
                 <div class="border"></div>
                 <div class="item">
-                  <h5>↑1.6%</h5>
+                  <div class="doted">
+                    <div class="dot"></div>
+                    <h5> ↑1.6%</h5>
+                  </div>
                 </div>
                 <div class="border"></div>
                 <div class="item">
@@ -199,7 +205,10 @@
                 </div>
                 <div class="border"></div>
                 <div class="item">
-                  <h5>↑1.6%</h5>
+                  <div class="doted">
+                    <div class="dot"></div>
+                    <h5> ↑1.6%</h5>
+                  </div>
                 </div>
                 <div class="border"></div>
                 <div class="item">
@@ -213,7 +222,8 @@
               <h3>Bet Tracker</h3>
             </div>
             <div class="bodyDV trakerCrd">
-              <div class="BetTracker">
+             <div class="trakCardIn">
+               <div class="BetTracker">
                 <h3>Win</h3>
                 <div class="Lakers">Lakers</div>
               </div>
@@ -238,6 +248,7 @@
                   <div class="darkDv">$ 72026416.00</div>
                 </div>
               </div>
+             </div>
             </div>
           </div>
         </div>

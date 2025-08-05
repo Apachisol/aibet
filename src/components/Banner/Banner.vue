@@ -46,6 +46,11 @@
       </div>
     </div>
   </div>
+  <div class="bottomAllover">
+    <div class="centerDv">
+      <h3>SportsBetting Help Centre  →  <span>About Us</span></h3>
+    </div>
+  </div>
 </template>
 <script lang="ts">
 import { defineComponent, onMounted, onUnmounted } from "vue";

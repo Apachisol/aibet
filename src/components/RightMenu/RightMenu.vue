@@ -82,12 +82,17 @@
               <p>Soldier Field, Chicago</p>
             </div>
             <div class="lasrChild">
-              <h6>WEATHER IMPACT</h6>
-              <p>Soldier Field, Chicago</p>
+              <h6><i class="fa fa-sun-o" aria-hidden="true"></i> 72°F (22°C)  |  💧 10%</h6>
+              <h6><span>💨</span> 8mph NE      |    <i class="fa fa-exclamation-triangle ereor" aria-hidden="true"></i> Low Risk</h6>
             </div>
             <div class="lasrChild">
-              <h6>WEATHER IMPACT</h6>
-              <p>Soldier Field, Chicago</p>
+              <h6>Hourly Forecast:</h6>
+              <h6><i class="fa fa-sun-o" aria-hidden="true"></i> 3PM  75°F  →  6PM 🌧️ 68°F</h6>
+            </div>
+            <div class="lasrChild">
+              <h6>AI Adjustments:</h6>
+              <h6>• TOTAL ↓ 4.5 pts (Rain)</h6>
+              <h6>• QB Passing ↓ 7% (Wind) </h6>
             </div>
           </div>
         </div>

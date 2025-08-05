@@ -42,6 +42,10 @@
               margin: 0px;
               padding: 0px;
             }
+            .doted{
+              display: flex; gap: 10px; align-items: center; 
+              .dot{width: 10px; height: 10px; border-radius: 50%; background-color: #4CAF50;}
+            }
           }
           .haderDv {
             background-color: #0056b3;
@@ -130,6 +134,7 @@
                 width: 1px;
                 height: 40px;
                 background-color: #bdbdbd;
+                margin-right: 20px;
               }
               .item {
                 &:first-child {
@@ -138,10 +143,14 @@
                 &:last-child {
                   padding-right: 30px;
                 }
+
               }
             }
             &.trakerCrd {
-              padding: 20px 30px;
+              padding: 20px 30px; display: flex; justify-content: center; align-items: center;
+              .trakCardIn{
+                width: 80%; display: flex; flex-direction: column; align-items: end;
+              }
               .BetTracker {
                 display: flex;
                 justify-content: end;
@@ -157,7 +166,6 @@
                 .Lakers {
                   border: 1px solid #e9eaef;
                   height: 35px;
-                  width: 100%;
                   display: flex;
                   justify-content: start;
                   align-items: center;
@@ -165,13 +173,14 @@
                   font-size: 18px;
                   font-weight: 400;
                   color: black;
+                  width: 61vh;
                 }
                 .both {
                   display: flex;
                   justify-content: start;
                   align-items: center;
                   gap: 20px;
-                  width: 100%;
+                  width: 61vh;
                   .darkDv {
                     background-color: #d9d9d9;
                     height: 35px;
@@ -214,6 +223,23 @@
             .bodyDV {
               &.trakerCrd {
                 padding: 10px;
+                .trakCardIn{
+                  width: 100%;
+                  .BetTracker{
+                    width: 100%;
+                    .Lakers{width: 100%;}
+                    .both{width: 100%;}
+                  }
+                }
+              }
+              .boderRowTable {
+                gap: 0px;
+                .item{
+                  padding: 0px 5px !important; 
+                }
+                .border{
+                  margin: 0px;
+                }
               }
             }
             .BetTracker {

@@ -9,7 +9,7 @@
         .rightDV{
             width: 70%;
             .logoRow{
-                display: flex; justify-content: start; align-items: center; gap: 40px; 
+                display: flex; justify-content: start; align-items: center; gap: 40px; overflow: auto;
                 .logoDv{
                     width: fit-content; display: flex; flex-direction: column; justify-content: center; align-items: center; 
                     figure{

@@ -48,3 +48,33 @@
             }
 
         }
+
+        @media (max-width: 768px) {
+            .tableDv{
+                .bodyDV {
+                     .bodyContentDv {
+                            width: 100%; padding: 0px 15px;
+                            &.formBox{
+                                padding: 15px; margin: 15px ; border-radius: 10px;
+                                .form{
+                                    .filedRow{
+                                        flex-direction: column;
+                                        .filed{width: 100%;}
+                                    }
+                                }
+                            }
+                            &.childeTable{
+                                
+                            }
+                        }
+                       
+                        &.resTb{
+                            width: 63vh; 
+                        }
+                }
+                 .overFL{
+                            overflow: auto;
+                            
+                        }
+            }
+        }

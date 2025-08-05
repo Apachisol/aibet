@@ -6,7 +6,7 @@
       <div class="contentDv">
         <h1><img src="../../assets/img/about.png" alt="" />About Us</h1>
         <div class="maincon">
-          <div>
+          <div class="formDv">
             <div class="aboutUsFor">
               <h3>About Us</h3>
               <p>Responsible Security Vulnerability Disclosure Program</p>

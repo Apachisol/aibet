@@ -30,7 +30,11 @@
                 .lasrChild{
                     border-bottom: 1px solid #BDBDBD; padding: 10px 30px;
                      p{font-size: 19px; font-weight:300; color: black; margin: 0px; padding: 0px;}
-                     h6{font-size: 19px; font-weight:600; color: black; margin: 0px; padding: 0px; margin-bottom: 5px;}
+                     h6{
+                        i{color: #FFE100; margin-right: 5px;}
+                        .ereor{color: red;}
+                        font-size: 19px; font-weight:600; color: black; margin: 0px; padding: 0px; margin-bottom: 5px;
+                    }
                      &:last-child{border-bottom: none;}
                      h1{font-size: 14px; font-weight: 500; color: #3D3C3C; margin: 0px; padding: 0px; text-decoration: underline;}
                 }

@@ -6,7 +6,7 @@
       <div class="contentDv">
         <h1>Responsible Gambling In Australia</h1>
         <div class="maincon">
-          <div>
+          <div class="formDv">
             <div class="aboutUsFor Detail">
               <p class="mb-3">
                 Sportsbet has been a leader in establishing responsible gambling
