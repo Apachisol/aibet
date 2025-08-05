@@ -8,30 +8,93 @@
         <div class="haderDv">
           <h3>Odds Camparison</h3>
         </div>
-        <div class="tabButtonRow">
-          <div
-            class="itemsDv"
-            v-for="tab in tabs"
-            :key="tab"
-            :class="{ active: activeTab === tab }"
-            @click="activeTab = tab"
-          >
-            {{ tab }}
-          </div>
-        </div>
-        <div class="bodyDV">
-          <div class="bodyRow">
-            <div class="tagDv">
-              <p>Lakers VS Warriors | Today 16 july</p>
-              <p>(Time: 19:00 - 21:00)</p>
-              <img src="../../assets/icon/dateIconm.svg" alt="" />
+            <div class="bodyDV">
+              <div class="bodyRow">
+                <div class="tagDv">
+                  <p>Lakers VS Warriors | Today 16 july</p>
+                <p>(Time: 19:00 - 21:00)</p>
+                <img src="../../assets/icon/dateIconm.svg" alt="" />
+                </div>
+                <div class="mainRow">
+                  <div class="items first">
+                    <div class="matchesTeam">
+                      <div class="teamLogo">
+                        <img src="../../assets/img/teamLogo.png" alt="">
+                        <h4>Warriors</h4>
+                      </div>
+                      <p>Vs</p>
+                      <div class="teamLogo">
+                        <img src="../../assets/img/teamLogo2.png" alt="">
+                        <h4>Warriors</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="items "><h5>$2.10</h5></div>
+                  <div class="items "><h5>$2.10</h5></div>
+                  <div class="items "><span>$2.10</span></div>
+                  <div class="items "><h5>$2.10</h5></div>
+                  <div class="items "><h5>$2.10</h5></div>
+                  <div class="items "><h5>$2.10</h5></div>
+                </div>
+              </div>
+              <div class="bodyRow">
+                <div class="tagDv">
+                  <p>Lakers VS Warriors | Today 16 july</p>
+                <p>(Time: 19:00 - 21:00)</p>
+                <img src="../../assets/icon/dateIconm.svg" alt="" />
+                </div>
+                <div class="mainRow">
+                  <div class="items first">
+                    <div class="matchesTeam">
+                      <div class="teamLogo">
+                        <img src="../../assets/img/teamLogo.png" alt="">
+                        <h4>Warriors</h4>
+                      </div>
+                      <p>Vs</p>
+                      <div class="teamLogo">
+                        <img src="../../assets/img/teamLogo2.png" alt="">
+                        <h4>Warriors</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="items "><h5>$2.10</h5></div>
+                  <div class="items "><h5>$2.10</h5></div>
+                  <div class="items "><span>$2.10</span></div>
+                  <div class="items "><h5>$2.10</h5></div>
+                  <div class="items "><h5>$2.10</h5></div>
+                  <div class="items "><h5>$2.10</h5></div>
+                </div>
+              </div>
+              <div class="bodyRow">
+                <div class="tagDv">
+                  <p>Lakers VS Warriors | Today 16 july</p>
+                <p>(Time: 19:00 - 21:00)</p>
+                <img src="../../assets/icon/dateIconm.svg" alt="" />
+                </div>
+                <div class="mainRow">
+                  <div class="items first">
+                    <div class="matchesTeam">
+                      <div class="teamLogo">
+                        <img src="../../assets/img/teamLogo.png" alt="">
+                        <h4>Warriors</h4>
+                      </div>
+                      <p>Vs</p>
+                      <div class="teamLogo">
+                        <img src="../../assets/img/teamLogo2.png" alt="">
+                        <h4>Warriors</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="items "><h5>$2.10</h5></div>
+                  <div class="items "><h5>$2.10</h5></div>
+                  <div class="items "><span>$2.10</span></div>
+                  <div class="items "><h5>$2.10</h5></div>
+                  <div class="items "><h5>$2.10</h5></div>
+                  <div class="items "><h5>$2.10</h5></div>
+                </div>
+              </div>
             </div>
-            <div class="mainRow">
-              <div class="items first"></div>
-            </div>
           </div>
-        </div>
-      </div>
     </div>
     <RightMenu />
   </div>
