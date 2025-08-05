@@ -1,0 +1,47 @@
+.sigaleContentDv {
+  .mainContentDataDv {
+    &.helpCnter {
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-bottom: 50px;
+      .box {
+        border: 1px solid #b0c9e0;
+        width: 262px;
+        height: 159px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+        flex-direction: column;
+        img {
+          width: 62px;
+          height: 69px;
+        }
+        h1 {
+          font-size: 18px;
+          font-weight: bolder;
+          margin: 0px;
+          padding: 0px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .sigaleContentDv {
+    .mainContentDataDv {
+      &.helpCnter {
+        gap: 10px;
+        .box {
+          width: calc(100% - 185px);
+        }
+      }
+    }
+  }
+}

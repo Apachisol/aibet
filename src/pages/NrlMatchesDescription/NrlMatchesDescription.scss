@@ -1,0 +1,19 @@
+.topRowOpen {
+  background-color: #edeff2;
+  border-radius: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  h3 {
+    color: black;
+  }
+  img {
+    width: 54px;
+    height: 54px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+  }
+}

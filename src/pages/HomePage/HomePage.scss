@@ -1,0 +1,240 @@
+.main-Content {
+  .rightDV {
+    .towColDataContent {
+      .centerColDv {
+        .topRow {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h3 {
+            color: black;
+          }
+          button {
+            background-color: #32cd32;
+            font-size: 12px;
+            font-weight: 600;
+            color: white;
+          }
+          .buttinDV {
+            display: flex;
+            justify-content: end;
+            gap: 20px;
+            align-items: center;
+            p {
+              margin: 0px;
+            }
+          }
+        }
+        .tableDv {
+          box-shadow: 0px 4px 20px 0px #0000000d;
+          display: flex;
+          flex-direction: column;
+          margin-top: 30px;
+          &:first-child {
+            margin-top: 0px;
+          }
+          .item {
+            width: calc(100% / 4);
+            h3 {
+              font-size: 21px;
+              font-weight: 700;
+              color: white;
+              margin: 0px;
+              padding: 0px;
+            }
+          }
+          .haderDv {
+            background-color: #0056b3;
+            padding: 10px 30px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            border-radius: 10px 10px 0px 0px;
+          }
+          .bodyDV {
+            background-color: white;
+
+            .topRow {
+              display: flex;
+              justify-content: start;
+              align-items: center;
+              gap: 5px;
+              padding: 10px 30px;
+              p {
+                font-size: 9px;
+                font-weight: 400;
+                color: #868686;
+                margin: 0px;
+                padding: 0px;
+              }
+              img {
+                width: 12px;
+                height: 10px;
+              }
+            }
+            .bodyRow {
+              display: flex;
+              justify-content: start;
+              align-items: center;
+              gap: 10px;
+              background-color: #f7f9fd;
+              padding: 10px 30px;
+              .logoNme {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 10px;
+                img {
+                  width: 21px;
+                  height: 21px;
+                  margin: 0px;
+                  padding: 0px;
+                }
+                h5 {
+                  color: #0056b3;
+                }
+              }
+              &.noBg {
+                background-color: transparent;
+              }
+              .tag {
+                background-color: #32cd32;
+                color: black;
+                font-size: 8px;
+                font-weight: 600;
+                margin: 0px;
+                padding: 0px;
+                border-radius: 20px;
+                padding: 5px 10px;
+              }
+              h3 {
+                color: black;
+              }
+            }
+            .boderRowTable {
+              display: flex;
+              justify-content: start;
+              display: flex;
+              justify-content: start;
+              align-items: center;
+              gap: 5px;
+              border-top: 1px solid #bdbdbd;
+              h3 {
+                color: black;
+              }
+              &:first-child {
+                border-top: none;
+              }
+              .border {
+                width: 1px;
+                height: 40px;
+                background-color: #bdbdbd;
+              }
+              .item {
+                &:first-child {
+                  padding-left: 30px;
+                }
+                &:last-child {
+                  padding-right: 30px;
+                }
+              }
+            }
+            &.trakerCrd {
+              padding: 20px 30px;
+              .BetTracker {
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                gap: 10px;
+                margin-top: 20px;
+                &:first-child {
+                  margin-top: 0px;
+                }
+                h3 {
+                  color: black;
+                }
+                .Lakers {
+                  border: 1px solid #e9eaef;
+                  height: 35px;
+                  width: 100%;
+                  display: flex;
+                  justify-content: start;
+                  align-items: center;
+                  padding: 0px 30px;
+                  font-size: 18px;
+                  font-weight: 400;
+                  color: black;
+                }
+                .both {
+                  display: flex;
+                  justify-content: start;
+                  align-items: center;
+                  gap: 20px;
+                  width: 100%;
+                  .darkDv {
+                    background-color: #d9d9d9;
+                    height: 35px;
+                    width: 50%;
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    padding: 0px 30px;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: black;
+                  }
+                  .Lakers {
+                    width: 50%;
+                    &.green {
+                      color: #32cd32;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main-Content {
+    .rightDV {
+      .towColDataContent {
+        .centerColDv {
+          .topRow {
+            flex-direction: column;
+            align-items: start;
+            gap: 10px;
+          }
+          .tableDv {
+            .bodyDV {
+              &.trakerCrd {
+                padding: 10px;
+              }
+            }
+            .BetTracker {
+              flex-direction: column;
+              .both {
+                flex-direction: column;
+                align-items: end !important;
+                .Lakers {
+                  width: 100% !important;
+                }
+                .darkDv {
+                  width: 100% !important  ;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .leftDv {
+      width: 100%;
+    }
+  }
+}

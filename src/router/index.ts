@@ -1,20 +1,20 @@
-import Bookmakers from '../pages/bookmakers/Bookmakers.vue'
-import getTrackers from '../pages/get-trackers/GetTrackers.vue'
-import NrlMatches from '../pages/nrl-matches/NrlMatches.vue'
-import NrlMatchesDescription from '../pages/nrl-matches-description/NrlMatchesDescription.vue'
-import SportsBettingAboutUs from '../pages/sports-betting-about-us/SportsBettingAboutUs.vue'
-import SportsBettingAboutUsDetail from '../pages/sports-betting-about-us-detail/SportsBettingAboutUsDetail.vue'
-import SportsBettingGettingStarted from '../pages/sports-betting-getting-started/SportsBettingGettingStarted.vue'
-import SportsBettingHelpCenter from '../pages/sports-betting-help-center/SportsBettingHelpCenter.vue'
-import SportsBettingRegister from '../pages/sports-betting-register/SportsBettingRegister.vue'
+import Bookmakers from '../pages/Bookmakers/Bookmakers.vue'
+import GetTrackers from '../pages/GetTrackers/GetTrackers.vue'
+import NrlMatches from '../pages/NrlMatches/NrlMatches.vue'
+import NrlMatchesDescription from '../pages/NrlMatchesDescription/NrlMatchesDescription.vue'
+import SportsBettingAboutUs from '../pages/SportsBettingAboutUs/SportsBettingAboutUs.vue'
+import SportsBettingAboutUsDetail from '../pages/SportsBettingAboutUsDetail/SportsBettingAboutUsDetail.vue'
+import SportsBettingGettingStarted from '../pages/SportsBettingGettingStarted/SportsBettingGettingStarted.vue'
+import SportsBettingHelpCenter from '../pages/SportsBettingHelpCenter/SportsBettingHelpCenter.vue'
+import SportsBettingRegister from '../pages/SportsBettingRegister/SportsBettingRegister.vue'
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../pages/home/Home.vue'
+import HomePage from '../pages/HomePage/HomePage.vue'
 
 const routes = [
-  { path: '/', name: 'home', component: Home },
-  { path: '/homePage', name: 'homePage', component: Home },
+  { path: '/', name: 'home', component: HomePage },
+  { path: '/homePage', name: 'homePage', component: HomePage },
   { path: '/Bookmakers', name: 'Bookmakers', component: Bookmakers },
-  { path: '/getTrackers', name: 'getTrackers', component: getTrackers },
+  { path: '/getTrackers', name: 'getTrackers', component: GetTrackers },
   { path: '/NrlMatches', name: 'NrlMatches', component: NrlMatches },
   { path: '/NrlMatchesDescription', name: 'NrlMatchesDescription', component: NrlMatchesDescription },
   { path: '/AboutUs', name: 'AboutUs', component: SportsBettingAboutUs },

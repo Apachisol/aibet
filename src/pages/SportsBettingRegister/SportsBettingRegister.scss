@@ -1,0 +1,125 @@
+.sigaleContentDv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  .mainContentDataDv {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    .boderdv {
+      background-color: #e0e0e0;
+      height: 127vh;
+      width: 1px;
+    }
+    .formcontent {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: start;
+      align-items: center;
+      h2 {
+        color: #0056b3;
+      }
+      .formDV {
+        box-shadow: 0px 0px 16px 0px #00000029;
+        width: 460px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        h3 {
+          color: black;
+          text-align: center;
+        }
+        .itemDv {
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          gap: 10px;
+          border-bottom: 1px solid #adaec2;
+          input {
+            border: none;
+            outline: none;
+            width: 100%;
+            font-size: 18px;
+          }
+        }
+        p {
+          font-size: 12px;
+          font-weight: 500;
+          color: #5e5e5e;
+        }
+        button {
+          width: 143px;
+          height: 50px;
+          background-color: #0056b3;
+          color: white;
+          border: none;
+          border-radius: 8px;
+          margin: auto 0px;
+        }
+      }
+    }
+    .textDv {
+      box-shadow: 0px 4px 20px 0px #0000000d;
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      width: 450px;
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+      .colDv {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h3 {
+          color: black;
+        }
+        .itemDot {
+          display: flex;
+          justify-content: start;
+          align-items: start;
+          gap: 10px;
+          .dot {
+            width: 5px;
+            flex: 0 0 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: black;
+            margin-top: 10px;
+          }
+          p {
+            padding: 0px;
+            margin: 0px;
+            font-size: 20px;
+            font-weight: 500;
+            color: #4c4c4c;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .sigaleContentDv {
+    .mainContentDataDv {
+      flex-direction: column;
+      gap: 10px;
+      .formcontent {
+        gap: 10px;
+        .formDV {
+          width: 100%;
+        }
+      }
+      .textDv {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+ .dataDV{
+        display: flex; flex-direction: column; gap: 30px;
+        .itemsDv{
+            border: 1px solid ridge; border-radius: 10px 10px 0px 0px;  box-shadow: 0px 4px 20px 0px #0000000D;
+            .headerItem{
+                background-color: #0056B3;  border-radius: 10px 10px 0px 0px; padding: 10px 30px; display: flex; justify-content: start; 
+            }
+            .databan{
+                background-color: white;
+                .items{
+                    display: flex; justify-content: space-between; align-items: center; background-color: #32CD32; border-radius: 15px; padding: 10px 20px; margin-top: 20px; margin: 10px 30px;
+                    h4{font-size: 28px; font-weight: 600; color: white; margin: 0px; padding: 0px;}
+                    p{font-size: 20px; font-weight: 400; color: white; margin: 0px; padding: 0px;}
+                    &:first-child{background-color: #00BFFF;}
+                }
+                .firetDV{
+                     padding: 10px 30px; display: flex; gap: 20px;
+                    p{font-size: 20px; font-weight: 600; color: black; margin: 0px; padding: 0px;}
+                }
+                .tabDv{
+                    display: flex; justify-content: start; align-items: center;   border-top: 1px solid #BDBDBD; padding: 0px 30px; gap: 20px;
+                    .bor{
+                        width: 1px; height: 50px; background-color: #BDBDBD;
+                    }
+                    .item{
+                        font-size: 18px; font-weight: 500; color: black; padding: 10px 0px;
+                        &.fir{width: 100px;}
+                    }
+                }
+                .lasrChild{
+                    border-bottom: 1px solid #BDBDBD; padding: 10px 30px;
+                     p{font-size: 19px; font-weight:300; color: black; margin: 0px; padding: 0px;}
+                     h6{font-size: 19px; font-weight:600; color: black; margin: 0px; padding: 0px; margin-bottom: 5px;}
+                     &:last-child{border-bottom: none;}
+                     h1{font-size: 14px; font-weight: 500; color: #3D3C3C; margin: 0px; padding: 0px; text-decoration: underline;}
+                }
+            }
+        }
+    }

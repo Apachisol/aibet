@@ -4,6 +4,7 @@ import './global.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'jquery'
 import 'popper.js'
+import 'font-awesome/css/font-awesome.min.css'
 import 'bootstrap'
 import router from './router'
 
