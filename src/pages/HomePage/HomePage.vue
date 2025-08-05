@@ -298,22 +298,22 @@
               <div class="BetTracker">
                 <h3>Rate</h3>
                 <div class="both">
-                  <div class="Lakers">Market value</div>
-                  <div class="darkDv">Odds</div>
+                  <div class="Lakers"><p>$327.62010</p></div>
+                  <div class="darkDv"><p>Odds</p></div>
                 </div>
               </div>
               <div class="BetTracker">
                 <h3>stake</h3>
                 <div class="both">
-                  <div class="Lakers green">$327.62010</div>
-                  <div class="darkDv">$ 00</div>
+                  <div class="Lakers green"><p>$327.62010</p></div>
+                  <div class="darkDv"><p>$ 00</p></div>
                 </div>
               </div>
               <div class="BetTracker">
                 <h3>Profit/loss</h3>
                 <div class="both">
-                  <div class="Lakers green">$72700.88</div>
-                  <div class="darkDv">$ 72026416.00</div>
+                  <div class="Lakers green"><p>$72700.88</p></div>
+                  <div class="darkDv"><p>$ 72026416.00</p></div>
                 </div>
               </div>
              </div>
