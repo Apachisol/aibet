@@ -1,79 +1,191 @@
-.bannerDv{
-    background-color: #023764; padding: 30px 0px ; display: flex; justify-content: center; align-items: start;   height: 220px;  
-    .contentDv{
-        width: 70%;display: flex; justify-content: end; align-items: center; position: relative; gap: 70px;height: 100%;
-        .bannerImg{
-            width: 290px; height: 285px; margin: 0px; padding: 0px; position: absolute; left: 52px; bottom: -30px; z-index: 3; 
-            &.dImg{z-index: 2; left: 0px; width: 336px; height: 169px;}
-        }
-        .contect{
-            h3{margin-bottom: 20px;}
-            .item{
-                display: flex; justify-content: start; align-items: center; gap: 10px;  margin-bottom: 10px;
-                &:last-child{margin-bottom: 0px;}
-                button{
-                    border: none; outline: none; background-color: #046EC8; color: #FFFFFF; font-size: 15px; font-weight: 700; border-radius: 8px; padding: 8px 11px; 
-                    img{width: 27px; height: 27px; margin: 0px; padding: 0px;}
-                } 
-                p{font-size: 15px; font-weight: 700; color: white; margin: 0px; padding: 0px; }
-            }
-        }
-        h1{font-size: 32px; font-weight: 700; color: white; margin: 0px; padding: 0px; span{font-weight: 300;} }
-         .serchDv{
-        width: 300px ; height: 40px ; background-color: #FFFFFF33; border-radius: 40px; border: 1px solid #FFFFFF33 ; display: flex; align-items: center;  gap: 5px;  padding: 0px 10px; margin-top: 20px;
-        input{border: none; outline: none; font-size: 13px; font-weight: 400; color: #ffffff; background-color: transparent;}
-        img{
-            width: 16px; height: 16px;
-        }
+.bannerDv {
+  background-color: #023764;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 220px;
+  .contentDv {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    gap: 70px;
+    height: 100%;
+    .bannerImg {
+      width: 290px;
+      height: 285px;
+      margin: 0px;
+      padding: 0px;
+      position: absolute;
+      left: 52px;
+      bottom: -30px;
+      z-index: 100;
+      &.dImg {
+        z-index: 2;
+        left: 0px;
+        width: 336px;
+        height: 169px;
+      }
     }
+    .contect {
+      h3 {
+        margin-bottom: 20px;
+      }
+      .item {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+        button {
+          border: none;
+          outline: none;
+          background-color: #046ec8;
+          color: #ffffff;
+          font-size: 15px;
+          font-weight: 700;
+          border-radius: 8px;
+          padding: 8px 11px;
+          img {
+            width: 27px;
+            height: 27px;
+            margin: 0px;
+            padding: 0px;
+          }
+        }
+        p {
+          font-size: 15px;
+          font-weight: 700;
+          color: white;
+          margin: 0px;
+          padding: 0px;
+        }
+      }
     }
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      span {
+        font-weight: 300;
+      }
+    }
+    .serchDv {
+      width: 300px;
+      height: 40px;
+      background-color: #ffffff33;
+      border-radius: 40px;
+      border: 1px solid #ffffff33;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 0px 10px;
+      margin-top: 20px;
+      input {
+        border: none;
+        outline: none;
+        font-size: 13px;
+        font-weight: 400;
+        color: #ffffff;
+        background-color: transparent;
+      }
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
 }
-.bottombar{
-    background-color: #DBEEFF; display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 20px 0px ; margin-bottom: 30px;
-    h1{
-        font-size: 24px; font-weight: 600; margin-bottom: 20px;
-    }
-    .cnterDv{
-        display: flex; justify-content: center; align-items: center; gap: 30px;
-        .item{
-            background-color: white; border-radius: 8px; padding: 20px; width: 500px;
-            h3{color: black; }
-            p{font-size: 16px; font-weight: 400; color: #424242; span{font-weight: 700;}}
+.bottombar {
+  background-color: #dbeeff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px;
+  margin-bottom: 30px;
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .cnterDv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    .item {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      width: 500px;
+      h3 {
+        color: black;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #424242;
+        span {
+          font-weight: 700;
         }
+      }
     }
+  }
 }
 
-.bottomAllover{
-    background-color: #E8E8E8; display: flex; align-items: center; justify-content: center; padding: 20px 0px ; margin-bottom: 30px;
-    .centerDv{
-        width: 70%;
-        h3{
-            color: black;
-            span{font-weight: 400;}
-        }
+.bottomAllover {
+  background-color: #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  margin-bottom: 30px;
+  .centerDv {
+    width: 70%;
+    h3 {
+      color: black;
+      span {
+        font-weight: 400;
+      }
     }
+  }
 }
 
 @media (max-width: 768px) {
-    .bannerDv{
-        height: 100%; padding: 15px;
-        .contentDv{
-            flex-direction: column; width: 100% ; gap: 10px;
-            h1{font-size: 18px; text-align: center;}
-            .serchDv{
-                margin-top: 10px;
-            }
-            .bannerImg{
-                display: none;
-            }
-            .contect{
-                width: 100%; 
-            }
-        }
+  .bannerDv {
+    height: 100%;
+    padding: 15px;
+    .contentDv {
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+      h1 {
+        font-size: 18px;
+        text-align: center;
+      }
+      .serchDv {
+        margin-top: 10px;
+      }
+      .bannerImg {
+        display: none;
+      }
+      .contect {
+        width: 100%;
+      }
     }
-    .bottomAllover{
-        .centerDv{
-            width: 100%; padding: 0px 15px;
-        }
+  }
+  .bottomAllover {
+    .centerDv {
+      width: 100%;
+      padding: 0px 15px;
     }
+  }
 }
